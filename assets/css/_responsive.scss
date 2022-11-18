@@ -1,0 +1,294 @@
+@media (max-width: 1199.9px) {
+  .site-nav {
+    padding-top: 0.5rem;
+  }
+  .breadcrumb {
+    border-top: 1px solid #c5c1c1;
+  }
+  .event-main-content {
+    .wrapper {
+      img,
+      .wrap {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .date {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 959.9px) {
+  .our-event,
+  .event {
+    .content {
+      .wrapper {
+        .event-img,
+        .event-content {
+          width: 75%;
+          margin: 0 auto;
+        }
+        .event-img {
+          .event-detail {
+            width: 100% !important;
+          }
+        }
+        .event-content {
+          margin-top: 3rem;
+          margin-right: 3rem;
+          padding: 2rem !important;
+          p {
+            padding-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .event {
+    .event-pages {
+      width: 85%;
+    }
+  }
+  .event {
+    .content {
+      .wrapper {
+        .event-content {
+          margin-right: 6rem;
+        }
+        .event-img {
+          padding-right: 0;
+          .event-detail {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .event-main-content {
+    .wrapper {
+      .wrap {
+        width: 75%;
+      }
+    }
+  }
+  .facility-main-content {
+    padding-top: 0.5rem;
+  }
+  footer {
+    .footer-wrapper {
+      h4 {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .about {
+    .section-2 {
+      padding-top: 5rem;
+      padding-bottom: 2rem;
+      .benefit-content {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+      }
+      .active-content {
+        transform: translateY(-20px);
+      }
+    }
+    .section-3 {
+      .content {
+        .wrap {
+          justify-content: center;
+        }
+        img {
+          width: 50%;
+          margin: 0 auto;
+          margin-top: 2rem;
+          display: block;
+        }
+      }
+    }
+    .section-4 {
+      .bg,
+      img {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+      }
+      img {
+        width: 50%;
+      }
+      .bg {
+        width: 75%;
+      }
+    }
+  }
+  .facility-main-content {
+    .bg,
+    img {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+    img {
+      width: 50%;
+    }
+    .bg {
+      width: 75%;
+    }
+  }
+}
+@media (max-width: 767.9px) {
+  .about {
+    .section-1 {
+      .uk-grid {
+        flex-direction: column;
+        .image {
+          img {
+            width: 200px;
+            height: 200px;
+          }
+          .img-bg {
+            width: 200px;
+            height: 200px;
+            top: -10px;
+            left: -10px;
+          }
+          .img-top-bg {
+            width: 20px;
+            height: 20px;
+            top: -10px;
+            left: -10px;
+          }
+          .img-bottom-bg {
+            width: 10px;
+            height: 10px;
+            bottom: 10px;
+            right: 10px;
+          }
+        }
+        .wrap {
+          width: 100%;
+        }
+      }
+    }
+    .section-2 {
+      .benefit-content {
+        width: 75%;
+      }
+    }
+    .section-3 {
+      .content {
+        img {
+          width: 75%;
+        }
+      }
+    }
+  }
+  .event-main-content {
+    .wrapper {
+      img {
+        width: 75%;
+      }
+      .wrap {
+        .content {
+          width: 100%;
+          padding: 2rem;
+        }
+      }
+    }
+  }
+  .about {
+    .section-4 {
+      img {
+        width: 75%;
+      }
+    }
+  }
+  .facility-main-content {
+    img {
+      width: 75%;
+    }
+  }
+}
+@media (max-width: 639.9px) {
+  p {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .title {
+    h2 {
+      font-size: 22px;
+    }
+  }
+  .breadcrumb {
+    .txt {
+      h2 {
+        font-size: 18px;
+      }
+      i,
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+  .our-event,
+  .event {
+    .content {
+      .wrapper {
+        .event-img,
+        .event-content {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .event-main-content {
+    .wrapper {
+      img,
+      .wrap {
+        width: 100%;
+      }
+    }
+  }
+  .about {
+    .section-1 {
+      padding-bottom: 3rem;
+    }
+    .section-2 {
+      .benefit-content {
+        width: 100%;
+      }
+    }
+    .section-3 {
+      .content {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .section-4 {
+      padding-top: 0;
+      .bg,
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .facility-main-content {
+    .bg,
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .why-choose-us .content .wrap span {
+    font-size: 11px;
+  }
+}
