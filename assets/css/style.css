@@ -1038,10 +1038,17 @@ footer .content-bg {
 .gallery .gallery-pages .wrapper .content .gallery-img img {
   transition: all 0.3s ease-in-out;
   border: 7px solid #f59934;
+  height: 210px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .gallery .gallery-pages .wrapper .content .gallery-img img:hover {
   transform: scale(1.1);
   border: 7px solid transparent;
+}
+.gallery .gallery-pages .wrapper .content .gallery-img iframe {
+  border: 7px solid #f59934;
 }
 
 .event {

@@ -1141,11 +1141,17 @@ footer {
           img {
             transition: $transition;
             border: 7px solid $primary;
+            height: 210px;
+            width: 100%;
+            object-fit: cover;
 
             &:hover {
               transform: scale(1.1);
               border: 7px solid transparent;
             }
+          }
+          iframe {
+            border: 7px solid $primary;
           }
         }
       }

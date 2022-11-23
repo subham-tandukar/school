@@ -30,7 +30,7 @@
        
    </div>
 
-    <div class="facility">
+    <div class="facility" style="padding-top:5rem">
         <div class="title">
             <h5>Other Facility</h5>
             <h2>Our Other Facilities</h2>
