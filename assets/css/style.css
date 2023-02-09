@@ -7,7 +7,7 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 @font-face {
@@ -41,8 +41,7 @@ span {
   border-top: 7px solid #f59934;
   width: 70px;
   height: 70px;
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 .pre-loader .loading .img {
   position: absolute;
@@ -59,14 +58,6 @@ span {
   transform: translateY(60px);
   display: block;
   font-size: 14px;
-}
-@-webkit-keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 @keyframes spin {
   0% {
@@ -720,7 +711,6 @@ header {
   padding: 0.5rem 1rem;
   top: -20px;
   left: -20px;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
@@ -1086,7 +1076,6 @@ footer .content-bg {
   padding: 0.5rem 1rem;
   top: -20px;
   left: -20px;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
@@ -1202,8 +1191,7 @@ footer .content-bg {
   top: -15px;
   left: -15px;
   z-index: 1;
-  -webkit-animation: zoom-in 3s ease infinite;
-          animation: zoom-in 3s ease infinite;
+  animation: zoom-in 3s ease infinite;
 }
 .about .section-1 .image .img-bottom-bg {
   width: 15px;
@@ -1214,19 +1202,7 @@ footer .content-bg {
   bottom: 15px;
   right: 15px;
   z-index: 1;
-  -webkit-animation: zoom-out 3s ease infinite;
-          animation: zoom-out 3s ease infinite;
-}
-@-webkit-keyframes zoom-in {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.3);
-  }
-  100% {
-    transform: scale(1);
-  }
+  animation: zoom-out 3s ease infinite;
 }
 @keyframes zoom-in {
   0% {
@@ -1237,17 +1213,6 @@ footer .content-bg {
   }
   100% {
     transform: scale(1);
-  }
-}
-@-webkit-keyframes zoom-out {
-  0% {
-    transform: scale(0.3);
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0.3);
   }
 }
 @keyframes zoom-out {
@@ -1305,19 +1270,10 @@ footer .content-bg {
   transform: translateY(-50px);
 }
 .about .section-2 .active-content img {
-  -webkit-animation: rotation 3s infinite linear;
-          animation: rotation 3s infinite linear;
+  animation: rotation 3s infinite linear;
 }
 .about .section-2 .active-content h4 {
   color: #f59934;
-}
-@-webkit-keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
 }
 @keyframes rotation {
   from {
@@ -1475,7 +1431,7 @@ footer .content-bg {
     border-top: 1px solid #c5c1c1;
   }
   .event-main-content .wrapper img,
-.event-main-content .wrapper .wrap {
+  .event-main-content .wrapper .wrap {
     width: 50%;
     display: block;
     margin: 0 auto;
@@ -1486,24 +1442,24 @@ footer .content-bg {
 }
 @media (max-width: 959.9px) {
   .our-event .content .wrapper .event-img,
-.our-event .content .wrapper .event-content,
-.event .content .wrapper .event-img,
-.event .content .wrapper .event-content {
+  .our-event .content .wrapper .event-content,
+  .event .content .wrapper .event-img,
+  .event .content .wrapper .event-content {
     width: 75%;
     margin: 0 auto;
   }
   .our-event .content .wrapper .event-img .event-detail,
-.event .content .wrapper .event-img .event-detail {
+  .event .content .wrapper .event-img .event-detail {
     width: 100% !important;
   }
   .our-event .content .wrapper .event-content,
-.event .content .wrapper .event-content {
+  .event .content .wrapper .event-content {
     margin-top: 3rem;
     margin-right: 3rem;
     padding: 2rem !important;
   }
   .our-event .content .wrapper .event-content p,
-.event .content .wrapper .event-content p {
+  .event .content .wrapper .event-content p {
     padding-right: 0 !important;
   }
   .event .event-pages {
@@ -1549,7 +1505,7 @@ footer .content-bg {
     display: block;
   }
   .about .section-4 .bg,
-.about .section-4 img {
+  .about .section-4 img {
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -1561,7 +1517,7 @@ footer .content-bg {
     width: 75%;
   }
   .facility-main-content .bg,
-.facility-main-content img {
+  .facility-main-content img {
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -1636,17 +1592,17 @@ footer .content-bg {
     font-size: 18px;
   }
   .breadcrumb .txt i,
-.breadcrumb .txt a {
+  .breadcrumb .txt a {
     font-size: 16px;
   }
   .our-event .content .wrapper .event-img,
-.our-event .content .wrapper .event-content,
-.event .content .wrapper .event-img,
-.event .content .wrapper .event-content {
+  .our-event .content .wrapper .event-content,
+  .event .content .wrapper .event-img,
+  .event .content .wrapper .event-content {
     width: 100%;
   }
   .event-main-content .wrapper img,
-.event-main-content .wrapper .wrap {
+  .event-main-content .wrapper .wrap {
     width: 100%;
   }
   .about .section-1 {
@@ -1662,11 +1618,11 @@ footer .content-bg {
     padding-top: 0;
   }
   .about .section-4 .bg,
-.about .section-4 img {
+  .about .section-4 img {
     width: 100%;
   }
   .facility-main-content .bg,
-.facility-main-content img {
+  .facility-main-content img {
     width: 100%;
   }
 }

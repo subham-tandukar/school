@@ -1,9 +1,7 @@
 var loader = document.querySelector(".pre-loader");
-var html = document.querySelector("html");
 
 function myMove() {
   loader.style.display = "none";
-  html.style.overflowY = "scroll";
 }
 
 window.addEventListener("load", function () {
